@@ -1,4 +1,4 @@
-# proofable-me
+# Proofable
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-proofable-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://proofable.me/
+Proofable provides AI agent identity and authorization services, enabling applications to verify who an AI tool is and what it is permitted to do. By storing proof of identity decisions, Proofable helps prevent fraud and ensures compliance with emerging regulations. The platform offers a free tier for developers and integrates with major AI models and tools, supporting secure, auditable AI workflows across enterprises and startups alike.
+
+**Areas:** AI Agents · Identity · Authorization · Proof Layer
+
+## Proofable on APIs.io
+
+Everything profiled for Proofable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/proofable-me/](https://apis.io/providers/proofable-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Proofable Agents API](https://apis.io/apis/proofable-me/proofable-me-agents-api/) — Import agents and run agent chat turns.
+- [Proofable Gates API](https://apis.io/apis/proofable-me/proofable-me-gates-api/) — Gate access on proofs and fulfill paid listings.
+- [Proofable Health API](https://apis.io/apis/proofable-me/proofable-me-health-api/) — Service status.
+- [Proofable Payments API](https://apis.io/apis/proofable-me/proofable-me-payments-api/) — Pricing and payment methods.
+- [Proofable Profile API](https://apis.io/apis/proofable-me/proofable-me-profile-api/) — Profile usage.
+- [Proofable Proofs API](https://apis.io/apis/proofable-me/proofable-me-proofs-api/) — Read, check and revoke proofs.
+- [Proofable Verification API](https://apis.io/apis/proofable-me/proofable-me-verification-api/) — Run a check and create a proof.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Proofable Agentic Access](https://apis.io/agentic-access/proofable-me/proofable-me-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ProofsByWalletResponse](https://apis.io/schemas/proofable-me/proofable-me-proofs-by-wallet-response/)
+- [StandardizeRequest](https://apis.io/schemas/proofable-me/proofable-me-standardize-request/)
+- [StandardizeResponse](https://apis.io/schemas/proofable-me/proofable-me-standardize-response/)
+- [VerificationAcceptedResponse](https://apis.io/schemas/proofable-me/proofable-me-verification-accepted-response/)
+- [VerificationRequest](https://apis.io/schemas/proofable-me/proofable-me-verification-request/)
+- [VerificationStatusBatchResponse](https://apis.io/schemas/proofable-me/proofable-me-verification-status-batch-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Proofable Me Context](https://apis.io/jsonld/proofable-me/proofable-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Proofable API Rules](https://apis.io/rules/proofable-me/proofable-me-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Proofable Authentication](https://apis.io/security/proofable-me/proofable-me-authentication/)
+- [Proofable Domain Security](https://apis.io/security/proofable-me/proofable-me-domain-security/)
+- [Proofable Trust Center](https://apis.io/security/proofable-me/proofable-me-trust-center/)
+- [Proofable Vulnerability Disclosure](https://apis.io/security/proofable-me/proofable-me-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Proofable Plans Pricing](https://apis.io/plans/proofable-me/proofable-me-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Proofable Rate Limits](https://apis.io/rate-limits/proofable-me/proofable-me-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://proofable.me/)
+- [Documentation](https://docs.proofable.me/)
+- [Getting started](https://docs.proofable.me/mcp/setup)
+- [API reference](https://dev.api.proofable.me/)
+- [Pricing](https://proofable.me/pricing)
+- [Support](https://proofable.me/contact)
+- [Changelog](https://docs.proofable.me/changelog)
+- [Blog](https://proofable.me/blog)
+- [Security](https://proofable.me/benchmarks/security)
+- [Terms of service](https://docs.proofable.me/learn/legal/terms-of-use)
+- [Privacy policy](https://docs.proofable.me/learn/legal/privacy-policy)
+- [GitHub](https://github.com/proofable)
+
+## API Evangelist rating
+
+**Kin Score 66.4** — strong · rubric 0.27.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 56.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 60.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 67.9 |
+
+**Agent readiness 55.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/proofable-me/](https://apis.io/providers/proofable-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Proofable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/proofable-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
